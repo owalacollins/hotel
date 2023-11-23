@@ -250,7 +250,7 @@ li a:hover{
     flex-wrap: wrap;
 }
 #menu .gallery{
-    max-width: 350px;
+    max-width: 400px;
     margin: 30px;
     position: relative;
 }
@@ -306,7 +306,7 @@ top: 0;
     flex-wrap: wrap;
 }
 #gallery .gallery{
-    max-width: 350px;
+    max-width: 400px;
     margin: 30px;
     position: relative;
 }
