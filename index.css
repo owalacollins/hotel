@@ -487,7 +487,11 @@ transition: 2s;    }
         flex-direction: column;
         padding: 20px;
     }
- 
+ #menu .gallery{
+    width: 100%;
+    margin: 30px;
+    position: relative;
+}
     #about img{
         width: 90%;
     }
