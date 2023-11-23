@@ -443,6 +443,14 @@ background-color: white;
 
 /* responsive stylimg ends here */
 @media  (max-width:896px){
+
+    .content h1{
+    font-size: 40px;
+   max-width:700px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: monospace;
+}
     #menuicon,#close{
         display: block;
         width: 30px;
