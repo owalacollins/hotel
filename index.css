@@ -5,9 +5,7 @@
     text-decoration: none;
 
 }
-body{
-    
-}
+
 section{
     max-width: 2000px;
   overflow-x: hidden;
@@ -159,7 +157,7 @@ li a:hover{
 }
 /* about stylimg ends here */
 
-/* quote stylimg starts here */
+/* quote stylimg starts here -------------------------------------------------------------------- */
 #quote{
     display: flex;
     justify-content: center;
@@ -182,7 +180,7 @@ li a:hover{
     align-items: center;
     flex-direction: column;
     background-color: white;
-    padding: 20px;
+    
 }
 .tophed{
     font-family: ravie;
@@ -250,7 +248,7 @@ li a:hover{
     flex-wrap: wrap;
 }
 #menu .gallery{
-    max-width: 400px;
+     max-width: 350px;
     margin: 30px;
     position: relative;
 }
@@ -306,13 +304,13 @@ top: 0;
     flex-wrap: wrap;
 }
 #gallery .gallery{
-    max-width: 400px;
+    max-width: 350px;
     margin: 30px;
     position: relative;
 }
 #galler .gallery img{
     width: 100%;
-    transition: 0.                                                             5s;
+    transition: 0.5s;
 }
 #galler .gallery img:hover{
   transform: scale(1.1);
@@ -443,14 +441,6 @@ background-color: white;
 
 /* responsive stylimg ends here */
 @media  (max-width:896px){
-
-    .content h1{
-    font-size: 40px;
-   max-width:700px;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: monospace;
-}
     #menuicon,#close{
         display: block;
         width: 30px;
@@ -487,13 +477,34 @@ transition: 2s;    }
         flex-direction: column;
         padding: 20px;
     }
- #menu .gallery{
-    width: 100%;
-    margin: 30px;
-    position: relative;
-}
+ 
     #about img{
         width: 90%;
+    }
+    .content h1{
+        
+        font-size: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: monospace;
+    }
+    #menu .gallery{
+      width: 100%;
+        margin: 5px 5px;
+        position: relative;
+    }
+    .gallery img{
+        width: 100%;
+    }
+
+    #gallery .gallery{
+        width: 100%;
+        margin: 5px 5px;
+        position: relative;
+    }
+    #galler .gallery img{
+        width: 100%;
+        transition: 0.5s;
     }
 }
 
